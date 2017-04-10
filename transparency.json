@@ -1,0 +1,38 @@
+{
+  "clients": [{
+    "firstName": "Machel",
+    "lastName": "Philips",
+    "username": "mphilips",
+    "password": "yodaddy"
+    },{
+    "firstName": "Vivienne",
+    "lastName": "Brochu",
+    "username": "vivbro",
+    "password": "thatone"
+    }],
+    "attendants": [{
+      "firstName": "Yoko",
+      "lastName": "Zuna"
+      },{
+      "firstName": "Leg",
+      "lastName": "Day"
+      }],
+    "admins": [{
+      "firstName": "James",
+      "lastName": "Hell",
+      "username": "jhell",
+      "password": "goat"
+      },{
+      "firstName": "Kimani",
+      "lastName": "Mbugua",
+      "username": "kmbugua",
+      "password": "kmbuggz"
+    }],
+    "services": [{
+      "name": "Manicure",
+      "price": 800
+      },{
+      "name": "Pedicure",
+      "price": 1000
+      }]
+}
