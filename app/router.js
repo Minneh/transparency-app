@@ -8,7 +8,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('admin');
-  this.route('client');
+  this.route('client', {path: '/client/:client_id'});
   this.route('attendant');
 });
 

@@ -1,7 +1,8 @@
 {{!-- set a property, addNewQuestion to true or false. When true, the form will show. When false, the button will show --}}
 
 {{#if addNewClient}}
-<h2>New Client</h2>
+<h2>Join Us!</h2>
+<h3>We have cookies :)</h3>
 <div>
   <form>
     <div class="form-group">
@@ -26,5 +27,8 @@
   </form>
 </div>
 {{else}}
-  <button class="btn btn-default" {{action 'clientFormShow'}}>Sign In</button>
+  {{!-- <button class="btn btn-default" {{action 'clientFormShow'}}>Sign In</button> --}}
 {{/if}}
+<li>
+    Hello, {{#link-to 'client' client.id}}{{username}}{{/link-to}}
+</li>

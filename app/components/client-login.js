@@ -15,7 +15,7 @@ export default Ember.Component.extend({
        username: this.get('username'),
        password: this.get('password')
      };
-     this.set('addNewQuestion', true); //hide form again after each field's value is collected
+     this.set('addNewClient', false); //hide form again after each field's value is collected
      this.sendAction('saveClient2', params); //emits the action saveQuestion2 sending with it the params hash that we just made
    }
  }
