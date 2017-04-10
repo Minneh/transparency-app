@@ -16,7 +16,13 @@ module.exports = function(environment) {
         Date: false
       }
     },
-
+    firebase: {
+      apiKey: "AIzaSyAmp7BijR9_WFQ8xxYPKoFLi8Suyda9a0o",
+      authDomain: "transparency-app-f5cdc.firebaseapp.com",
+      databaseURL: "https://transparency-app-f5cdc.firebaseio.com",
+      projectId: "transparency-app-f5cdc",
+      storageBucket: "transparency-app-f5cdc.appspot.com"
+    },
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
