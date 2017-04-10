@@ -1,12 +1,17 @@
 <h2>Clients</h2>
 <hr>
 <ul>
-
-     {{client-login client=client saveClient2="saveClient3"}}
+{{!--
+    {{client-tile client=model}}
+     {{client-login client=client saveClient2="saveClient3"}} --}}
 
      <hr> {{!-- add formatting line --}}
-     {{outlet}}
+     {{!-- {{outlet}} --}}
 </ul>
-
-
-{{outlet}}
+<ul>
+{{#each model as |client|}}
+{{client-tile client=client}}
+{{/each}}
+</ul>
+{{client-login saveClient2="saveClient3"}}
+{{#link-to 'client' client.id}}Client{{/link-to}}

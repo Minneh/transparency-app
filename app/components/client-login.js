@@ -3,9 +3,9 @@ import Ember from 'ember';
 export default Ember.Component.extend({
   addNewClient: true,
   actions: {
-   clientFormShow() {
-     this.set('addNewClient', false);
-   },
+  //  clientFormShow() {
+  //    this.set('addNewClient', false);
+  //  },
   //  component behaviour for save button
    saveClient1(){
     // collects all of the data that was entered in the input fields and sets them as values in a hash of keys with the same names.
