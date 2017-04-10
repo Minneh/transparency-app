@@ -1,1 +1,30 @@
-{{yield}}
+{{!-- set a property, addNewQuestion to true or false. When true, the form will show. When false, the button will show --}}
+
+{{#if addNewClient}}
+<h2>New Client</h2>
+<div>
+  <form>
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      {{!-- input helper for form inputs --}}
+        {{input value=firstName id="firstName"}}
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+        {{input value=lastName id="lastName"}}
+    </div>
+    <div class="form-group">
+      <label for="username">Username</label>
+        {{input value=username id="username"}}
+    </div>
+    <div class="form-group">
+      <label for="password">Password</label>
+        {{input value=password id="password"}}
+    </div>
+    {{!-- submit button has the saveQuestion1 action attached to begin the process of saving the new question added by a user. --}}
+    <button class="btn btn-primary" {{action 'saveClient1'}}>Sign Up</button>
+  </form>
+</div>
+{{else}}
+  <button class="btn btn-default" {{action 'clientFormShow'}}>Sign In</button>
+{{/if}}
