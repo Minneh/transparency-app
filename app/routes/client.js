@@ -12,6 +12,13 @@ export default Ember.Route.extend({
 
       // move to index page and see our new question in the list
       this.transitionTo('client');
+    },
+    saveClient3(params){
+      var newClient = this.store.createRecord('client', params); //use params to create new question record in the store
+      newClient.save(); //save new question
+
+      // move to index page and see our new question in the list
+      this.transitionTo('client');
     }
   }
 });

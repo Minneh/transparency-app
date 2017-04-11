@@ -15,15 +15,19 @@
         {{input value=lastName id="lastName"}}
     </div>
     <div class="form-group">
-      <label for="username">Username</label>
-        {{input value=username id="username"}}
+      <label for="service">Service</label>
+        {{input value=service id="service"}}
     </div>
     <div class="form-group">
-      <label for="password">Password</label>
-        {{input value=password id="password"}}
+      <label for="prices">Price</label>
+        {{input value=prices id="prices"}}
+    </div>
+    <div class="form-group">
+      <label for="attendant">Attendant</label>
+        {{input value=attendant id="attendant"}}
     </div>
     {{!-- submit button has the saveQuestion1 action attached to begin the process of saving the new question added by a user. --}}
-    <button class="btn btn-primary" {{action 'saveClient1'}}>Sign Up</button>
+    <button class="btn btn-primary" {{action 'saveClient1'}}>Submit</button>
   </form>
 </div>
 {{else}}
