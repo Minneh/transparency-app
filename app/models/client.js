@@ -5,6 +5,5 @@ export default DS.Model.extend({
   lastName: DS.attr(),
   service: DS.attr(),
   price: DS.attr(),
-  attendant: DS.attr(),
-  discount: DS.attr()
+  attendant: DS.attr()
 });

@@ -4,15 +4,13 @@
     "lastName": "Philips",
     "service": "manicure",
     "price": 1000,
-    "attendant": "Clifford James",
-    "discount": 50
+    "attendant": "Clifford James"
     },{
     "firstName": "Vivienne",
     "lastName": "Brochu",
     "service": "pedicure",
     "price": 2000,
-    "attendant": "William Jones",
-    "discount": 100
+    "attendant": "William Jones"
     }],
     "admins": [{
       "firstName": "James",
