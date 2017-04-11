@@ -3,12 +3,12 @@
 <strong>Addendant: </strong>{{client.attendant}}<br>
 <strong>Amount paid: </strong>KES {{client.price}}<br>
 
-{{!-- <strong>Attendant Commission: </strong>{{mult client.price 0.05}}<br>
-<strong>Client Discount: </strong>KES {{mult client.price 0.05}}<br> --}}
+<strong>Attendant Commission: </strong>{{mult client.price 0.05}}<br>
+<strong>Client Discount: </strong>KES {{mult client.price 0.05}}<br>
 
-
-
-<button class="btn btn-primary" {{action 'approveService'}}>Approve Service</button>
 <br>
 
-<strong>Net Income: </strong>KES {{client.net}}<br>
+<button class="btn btn-primary" {{action 'approveService'}}>Approve Service</button>
+
+
+<strong>Net Income: </strong>KES {{mult client.price 0.9}}<br>
