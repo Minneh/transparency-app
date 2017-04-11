@@ -15,5 +15,8 @@ export default Ember.Route.extend({
       // move to index page and see our new question in the list
       this.transitionTo('client');
     }
+    // approveService(params){
+    //
+    // }
   }
 });

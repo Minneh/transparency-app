@@ -1,6 +1,14 @@
 <strong>Client Name: </strong>{{client.firstName}} {{client.lastName}}<br>
-<strong>Service rendered: </strong>{{client.service}}<br>
-<strong>Amount paid: </strong>KES {{client.price}}<br>
+<strong>Service Rendered: </strong>{{client.service}}<br>
 <strong>Addendant: </strong>{{client.attendant}}<br>
+<strong>Amount paid: </strong>KES {{client.price}}<br>
+
+{{!-- <strong>Attendant Commission: </strong>{{mult client.price 0.05}}<br>
+<strong>Client Discount: </strong>KES {{mult client.price 0.05}}<br> --}}
+
+
 
 <button class="btn btn-primary" {{action 'approveService'}}>Approve Service</button>
+<br>
+
+<strong>Net Income: </strong>KES {{client.net}}<br>
