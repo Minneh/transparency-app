@@ -1,1 +1,6 @@
-Hello, {{client.username}}
+<strong>Client Name: </strong>{{client.firstName}} {{client.lastName}}<br>
+<strong>Service rendered: </strong>{{client.service}}<br>
+<strong>Amount paid: </strong>KES {{client.price}}<br>
+<strong>Addendant: </strong>{{client.attendant}}<br>
+
+<button class="btn btn-primary" {{action 'approveService'}}>Approve Service</button>

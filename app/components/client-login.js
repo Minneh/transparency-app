@@ -13,7 +13,7 @@ export default Ember.Component.extend({
        firstName: this.get('firstName'),
        lastName: this.get('lastName'),
        service: this.get('service'),
-       price: this.get('price'),
+       price: this.get('prices'),
        attendant: this.get('attendant')
      };
      this.set('addNewClient', false); //hide form again after each field's value is collected

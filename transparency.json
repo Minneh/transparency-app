@@ -2,21 +2,16 @@
   "clients": [{
     "firstName": "Machel",
     "lastName": "Philips",
-    "username": "mphilips",
-    "password": "yodaddy"
+    "service": "manicure",
+    "price": 1000,
+    "attendant": "Clifford James"
     },{
     "firstName": "Vivienne",
     "lastName": "Brochu",
-    "username": "vivbro",
-    "password": "thatone"
+    "service": "pedicure",
+    "price": 2000,
+    "attendant": "William Jones"
     }],
-    "attendants": [{
-      "firstName": "Yoko",
-      "lastName": "Zuna"
-      },{
-      "firstName": "Leg",
-      "lastName": "Day"
-      }],
     "admins": [{
       "firstName": "James",
       "lastName": "Hell",
@@ -27,12 +22,5 @@
       "lastName": "Mbugua",
       "username": "kmbugua",
       "password": "kmbuggz"
-    }],
-    "services": [{
-      "name": "Manicure",
-      "price": 800
-      },{
-      "name": "Pedicure",
-      "price": 1000
-      }]
+    }]
 }
