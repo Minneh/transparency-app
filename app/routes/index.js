@@ -13,7 +13,7 @@ export default Ember.Route.extend({
       newClient.save(); //save new question
 
       // move to index page and see our new question in the list
-      this.transitionTo('client');
+      this.transitionTo('index');
     }
     // approveService(params){
     //
