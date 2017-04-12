@@ -1,8 +1,15 @@
+body {
+  height: 100%;
+  background-image: url("https://www.joincube.com/wp-content/uploads/2015/02/transparency-2.jpg");
+  background-size: 1300px 800px;
+  background-repeat: no-repeat;
+}
 footer
  {
   text-align: center;
+  margin-top: 200px;
 }
- p{
+ p {
    text-align: center;
    color: green;
    font-size: 14pt;
@@ -15,10 +22,11 @@ li {
   width: 300px;
   border-radius: 5px;
 }
-.main-left {
+/*.main-left {
   float: left;
   border-right: 1pt;
-}
+}*/
 .main-right {
-  float: right;
+  margin-top: 220px;
+  margin-left: 310px;
 }
