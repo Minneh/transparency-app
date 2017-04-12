@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('admin');
   this.route('client', {path: '/client/:client_id'});
   this.route('attendant');
+  this.route('service-record');
 });
 
 export default Router;

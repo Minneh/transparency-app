@@ -1,0 +1,12 @@
+<div class="container service-list">
+<strong>Client Name: </strong>{{client.firstName}} {{client.lastName}}
+<br><br>
+<strong>Service Rendered: </strong>{{client.service}}<br><br>
+<strong>Attendant: </strong>{{client.attendant}}<br><br>
+<strong>Price: </strong>KES {{client.price}}<br><br>
+
+<strong>Attendant Commission: </strong>KES {{mult client.price 0.05}}<br><br>
+<strong>Client Discount: </strong>KES {{mult client.price 0.05}}<br><br>
+<strong>Net Income: KES {{mult client.price 0.9}}</strong><br><br>
+<hr>
+</div>
