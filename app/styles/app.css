@@ -5,6 +5,8 @@
   background-size: 1280px 800px;
   background-repeat: no-repeat;
   margin-bottom: 0;
+  overflow-x: hidden;
+
 }
 footer{
   text-align: center;

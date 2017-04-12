@@ -5,14 +5,14 @@
     "service": "manicure",
     "price": 1000,
     "attendant": "Clifford James",
-    "approved": "false"
+    "approved": false
     },{
     "firstName": "Vivienne",
     "lastName": "Brochu",
     "service": "pedicure",
     "price": 2000,
     "attendant": "William Jones",
-    "approved": "false"
+    "approved": false
     }],
     "admins": [{
       "firstName": "James",

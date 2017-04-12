@@ -4,15 +4,16 @@ export default Ember.Component.extend({
   isButtonShowing: false,
   actions: {
     approveService(client){
-      this.set('isButtonShowing', true);
+      // console.log(this.get('firstName'))
       var params = {
       firstName: this.get('firstName'),
       lastName: this.get('lastName'),
       service: this.get('service'),
-      attendant: this.get('attendant'),
       price: this.get('price'),
+      attendant: this.get('attendant'),
       approved: true
     };
+    this.set('isButtonShowing', true);
     this.sendAction('approveService', client, params);
   }
 }
