@@ -1,18 +1,19 @@
-.jumbotron {
+body {
   height: 100%;
-  width: 100%;
+}
+.jumbotron {
   background-image: url("https://www.joincube.com/wp-content/uploads/2015/02/transparency-2.jpg");
   background-size: 1280px 800px;
   background-repeat: no-repeat;
-  margin-bottom: 0;
-  overflow-x: hidden;
-
+  margin-bottom: 0px;
+  height: 700px;
 }
 footer{
   text-align: center;
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
 }
  p {
    text-align: center;

@@ -9,7 +9,7 @@ export default Ember.Component.extend({
       firstName: this.get('firstName'),
       lastName: this.get('lastName'),
       service: this.get('service'),
-      price: this.get('price'),
+      price: this.get('prices'),
       attendant: this.get('attendant'),
       approved: true
     };
