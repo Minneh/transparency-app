@@ -1,3 +1,8 @@
 footer{
   text-align: center;
 }
+ p{
+   text-align: center;
+   color: green;
+   font-size: 14pt;
+ }
