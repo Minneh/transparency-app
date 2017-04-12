@@ -1,4 +1,5 @@
-footer{
+footer,
+h3 {
   text-align: center;
 }
  p{
@@ -6,3 +7,13 @@ footer{
    color: green;
    font-size: 14pt;
  }
+ #main {
+   text-align: center;;
+ }
+li {
+  list-style: none;
+}
+.formgroup {
+  width: 300px;
+  border-radius: 5px;
+}

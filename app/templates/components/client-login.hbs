@@ -2,7 +2,7 @@
 
 {{#if addNewClient}}
 <h3>Enter Details Below:</h3>
-<div>
+<div id="main">
   <form>
     <div class="form-group">
       {{!-- <label for="firstName">First Name</label> --}}
@@ -30,5 +30,5 @@
   </form>
 </div>
 {{else}}
-  <p>Your service details have been SUCCESSFULLY submitted :-)</p>
+  <p>Thank you, {{firstName}} {{lastName}}, your service details have been SUCCESSFULLY submitted. :-)</p>
 {{/if}}
