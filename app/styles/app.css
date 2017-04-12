@@ -1,13 +1,16 @@
-body {
+.jumbotron {
   height: 100%;
+  width: 100%;
   background-image: url("https://www.joincube.com/wp-content/uploads/2015/02/transparency-2.jpg");
-  background-size: 1300px 800px;
+  background-size: 1280px 800px;
   background-repeat: no-repeat;
+  margin-bottom: 0;
 }
-footer
- {
+footer{
   text-align: center;
-  margin-top: 200px;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
  p {
    text-align: center;
@@ -28,5 +31,18 @@ li {
 }*/
 .main-right {
   margin-top: 220px;
-  margin-left: 310px;
+  margin-left: 360px;
+}
+img {
+  margin-top: 0px;
+  padding-top: 0px;
+  height: 25px;
+  width: 25px;
+  border-style: solid;
+  border-color: transparent;
+  border-radius: 100%;
+  float: left;
+}
+.navbar{
+  margin-bottom: 0px;
 }
