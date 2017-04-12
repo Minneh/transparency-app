@@ -34,7 +34,7 @@ li {
   margin-left: 360px;
 }
 img {
-  margin-top: 0px;
+  margin-top: 12px;
   padding-top: 0px;
   height: 25px;
   width: 25px;
@@ -45,4 +45,10 @@ img {
 }
 .navbar{
   margin-bottom: 0px;
+}
+#client-details{
+  height: 300%;
+}
+#transparency{
+  font-size: 13pt;
 }

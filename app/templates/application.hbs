@@ -1,11 +1,17 @@
 {{!-- <div class="container"> --}}
   <nav class="navbar navbar-inverse">
       {{!-- <div class="container"> --}}
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="https://news.kyero.com/wp-content/uploads//2013/11/piggy-bank.jpg" alt="Transparency">Transparency</a>
-        </div>
+        {{!-- <div class="navbar-header">
+          <a class="navbar-brand" href="">Transparency</a> --}}
+        {{!-- </div> --}}
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
+            <li>
+              <img src="https://news.kyero.com/wp-content/uploads//2013/11/piggy-bank.jpg" alt="Transparency">
+            </li>
+            <li id="transparency">
+              {{#link-to 'index' class="active"}}Transparency{{/link-to}}
+            </li>
             <li>
               {{#link-to 'index' class="active"}}Home{{/link-to}}
             </li>
