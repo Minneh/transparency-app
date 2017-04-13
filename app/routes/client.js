@@ -12,7 +12,7 @@ export default Ember.Route.extend({
         }
       });
       client.save();
-      this.transitionTo('admin');
+      this.transitionTo('service-record');
     }
   }
 });

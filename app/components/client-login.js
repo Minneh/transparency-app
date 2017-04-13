@@ -1,7 +1,9 @@
 import Ember from 'ember';
+import moment from 'moment';
 
 export default Ember.Component.extend({
   addNewClient: true,
+  // moment: Ember.inject.service(),
   actions: {
   //  clientFormShow() {
   //    this.set('addNewClient', false);
@@ -16,7 +18,9 @@ export default Ember.Component.extend({
        price: this.get('prices'),
        attendant: this.get('attendant'),
        approved: false,
+       time: new Date()
      };
+    //  console.log(time)
      this.set('addNewClient', false); //hide form again after each field's value is collected
      this.sendAction('saveClient2', params); //emits the action saveQuestion2 sending with it the params hash that we just made
    }
