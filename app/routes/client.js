@@ -13,6 +13,10 @@ export default Ember.Route.extend({
       });
       client.save();
       this.transitionTo('service-record');
+    },
+    destroyService(client){
+      client.destroyRecord();
+      this.transitionTo('admin');
     }
   }
 });

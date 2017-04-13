@@ -12,6 +12,10 @@ export default Ember.Route.extend({
     approveService(client, params){
       client.save();
       this.transitionTo('admin');
+    },
+    destroyService(client){
+      client.destroyRecord();
+      this.transitionTo('admin');
     }
   }
 });

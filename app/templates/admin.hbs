@@ -2,6 +2,6 @@
 {{#each model as |client|}}
 {{#unless client.approved}}
 
-{{client-tile client=client approveService="approveService"}}
+{{client-tile client=client approveService="approveService" destroyService="destroyService"}}
 {{/unless}}
 {{/each}}

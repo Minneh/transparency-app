@@ -15,6 +15,11 @@ export default Ember.Component.extend({
     };
     this.set('isButtonShowing', true);
     this.sendAction('approveService', client, params);
-  }
+  },
+    delete(client){
+      if(confirm("Are you sure you want to delete this record?")){
+          this.sendAction('destroyService', client);
+    }
+}
 }
 });

@@ -17,6 +17,7 @@
   <strong>Net Income: </strong>KES {{mult client.price 0.9}}<br><br>
   {{else}}
   <button class="btn btn-primary" {{action 'approveService' client}}>Approve Service</button>
+  <button class="btn btn-danger" {{action 'delete' client}}>Delete Service</button>
   <br><br><br>
   {{/if}}
 
