@@ -6,5 +6,6 @@ export default DS.Model.extend({
   service: DS.attr(),
   price: DS.attr('number'),
   attendant: DS.attr(),
-  approved: DS.attr('boolean')
+  approved: DS.attr('boolean'),
+  time: DS.attr('date')
 });

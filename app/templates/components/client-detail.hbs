@@ -4,10 +4,10 @@
   <strong>Service Rendered: </strong>{{client.service}}<br><br>
   <strong>Attendant: </strong>{{client.attendant}}<br><br>
   <strong>Price: </strong>KES {{client.price}}<br><br>
-
+{{!-- 
   <strong>Attendant Commission: </strong>KES {{mult client.price 0.05}}<br><br>
   <strong>Client Discount: </strong>KES {{mult client.price 0.05}}<br><br>
-  <strong>Net Income: </strong>KES {{mult client.price 0.9}}<br><br>
+  <strong>Net Income: </strong>KES {{mult client.price 0.9}}<br><br> --}}
   {{#if isButtonShowing}}
   <br>
   <strong>Attendant Commission: </strong>KES {{mult client.price 0.05}}<br><br>
