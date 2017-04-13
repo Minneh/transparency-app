@@ -7,23 +7,23 @@
   </div> --}}
   <div class="main-right">
     <h3>Enter Details Below:</h3>
-  <form>
+  <form{{action 'saveClient1' on="submit"}}>
     <div class="form-group">
-        {{input value=firstName type="text" id="firstName" placeholder="First Name" class="text-box"}}
+        {{input value=firstName type="text" id="firstName" placeholder="First Name" class="text-box" required="true"}}
     </div>
     <div class="form-group">
-        {{input value=lastName type="text" id="lastName" placeholder="Last Name" class="text-box"}}
+        {{input value=lastName type="text" id="lastName" placeholder="Last Name" class="text-box" required="true"}}
     </div>
     <div class="form-group">
-        {{input value=service type="text" id="service" placeholder="Service" class="text-box"}}
+        {{input value=service type="text" id="service" placeholder="Service" class="text-box" required="true"}}
     </div>
     <div class="form-group">
-        {{input value=prices type="number" id="prices" placeholder="Price" class="text-box" onkeypress="return event.charCode === 0 || /\d/.test(String.fromCharCode(event.charCode));"}}
+        {{input value=prices type="number" id="prices" placeholder="Price" class="text-box" required="true"}}
     </div>
     <div class="form-group">
-        {{input value=attendant type="text" id="attendant" placeholder="Attendant" class="text-box"}}
+        {{input value=attendant type="text" id="attendant" placeholder="Attendant" class="text-box" required="true"}}
     </div>
-    <button class="btn btn-primary" {{action 'saveClient1'}}>Submit</button>
+    <button class="btn btn-primary" type="submit">Submit</button>
   </form>
   </div>
 </div>
